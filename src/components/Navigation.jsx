@@ -2,8 +2,8 @@ import React from 'react';
 import logo from '../images/logo.png'
 const Navigation = () => {
   return (
-    <header className="bg-navbg bg-blood-red">
-      <nav className="flex w-full justify-around items-center text-white">
+    <header className="">
+      <nav className="bg-navbg bg-blood-red flex w-full justify-around items-center  font-medula text-5xl py-12 fixed">
         <div>
           <img src={logo} alt="Pilgrim's Finest Logo"></img>
         </div>
