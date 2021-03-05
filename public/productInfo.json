@@ -1,0 +1,11 @@
+{
+  "products":[
+    {
+      "name":"Honey Whole Wheat",
+      "description":"Whole wheat bread with organic honey and a hint of organic coconut",
+      "photo":"url/photo",
+      "nutrition-info":"url/photo",
+      "locations":["Noggins Sante Centre"]
+    }    
+  ]
+}
