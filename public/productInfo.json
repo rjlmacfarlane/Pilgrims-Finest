@@ -2,10 +2,57 @@
   "products":[
     {
       "name":"Honey Whole Wheat",
-      "description":"Whole wheat bread with organic honey and a hint of organic coconut",
+      "description":"Whole wheat bread with organic honey and a hint of organic coconut.",
       "photo":"url/photo",
       "nutrition-info":"url/photo",
-      "locations":["Noggins Sante Centre"]
-    }    
+      "available":"yes",
+      "locations":["Noggins Sante Centre"],
+      "wholesale":"$4.50"
+    },
+    {
+      "name":"Italian Herb and Old Cheddar",
+      "description":"Traditional Focaccia bread made with a blend of Italian spices and old cheddar. Pairs well with tomato-based pasta dishes, Merlot (oaked, dry), Cabernet Sauvignon, and Sangiovese. A taste of Italy!",
+      "photo":"url/photo",
+      "nutrition-info":"url/photo",
+      "available":"yes",
+      "locations":["Noggins Sante Centre"],
+      "wholesale":"$5.45"
+    },
+    {
+      "name":"Dinner Rolls",
+      "description":"White or whole wheat dinner rolls, the perfect companion for a bowl of soup, or to compliment the family dinner.",
+      "photo":"url/photo",
+      "nutrition-info":"url/photo",
+      "available":"yes",
+      "locations":["Noggins Sante Centre"],
+      "wholesale":"$4.06"
+    },
+    {
+      "name":"Chocolate Babka",
+      "description":"Rich chocolate layers are woven into this luxurious braided loaf, to be enjoyed as a dessert with specialty coffee, drizzled with caramel, or as a companion to your favourite ice cream. Enjoy this holiday treat with a glass of egg nog or chilled Irish Cream. ",
+      "photo":"url/photo",
+      "nutrition-info":"url/photo",
+      "available":"soon",
+      "locations":["Noggins Sante Centre"],
+      "wholesale":"$8.38"
+    },
+    {
+      "name":"Cinnamon Babka",
+      "description":"Playful cinnamon accents make this braided loaf a delightful treat to enjoy over the holiday season. Prepare your favourite french toast batter recipe for a unique and impressive breakfast offering!",
+      "photo":"url/photo",
+      "nutrition-info":"url/photo",
+      "available":"soon",
+      "locations":["Noggins Sante Centre"],
+      "wholesale":"$7.55"
+    },
+    {
+      "name":"Traditional Sourdough",
+      "description":"Playful cinnamon accents make this braided loaf a delightful treat to enjoy over the holiday season. Prepare your favourite french toast batter recipe for a unique and impressive breakfast offering!",
+      "photo":"url/photo",
+      "nutrition-info":"url/photo",
+      "available":"no",
+      "locations":["Noggins Sante Centre"],
+      "wholesale":"$7.55"
+    } 
   ]
 }
