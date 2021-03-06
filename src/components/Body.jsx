@@ -3,7 +3,9 @@ import React from 'react';
 const Body = () => {
   return (
     <main className="">
-        <div className="bg-cover bg-center bg-no-repeat h-96 bg-hero-image"></div>
+      <div className="">
+        <div className="bg-fixed bg-contain bg-no-repeat h-half-screen bg-hero-image relative"></div>
+      </div>
         <div className="bg-black h-screen"></div>
     </main>
   );
