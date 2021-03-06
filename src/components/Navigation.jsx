@@ -31,7 +31,7 @@ const Navigation = () => {
 
   return (
     <header className="fixed z-50 w-full">
-        <nav className={`${bgColor} flex w-full justify-around items-center  font-medula text-5xl py-12`}>
+        <nav className={`transition duration-500 ease-in-out  ${bgColor} flex w-full justify-around items-center  font-medula text-5xl py-12`}>
           <div>
             <img src={logo} alt="Pilgrim's Finest Logo"></img>
           </div>
