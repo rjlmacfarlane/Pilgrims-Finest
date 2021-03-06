@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../images/logo.png'
+import ourProducts from '../images/ourproducts.png'
+import contactus from '../images/contactus.png'
+import aboutus from '../images/aboutus.png'
 
 const Navigation = () => {
   const bgUrl = 'https://raw.githubusercontent.com/rjlmacfarlane/Pilgrims-Finest/master/src/images/index.png'
@@ -36,13 +39,13 @@ const Navigation = () => {
             <img src={logo} alt="Pilgrim's Finest Logo"></img>
           </div>
           <div>
-            Our Products
+            <img src={ourProducts} alt="Our Products"></img>
           </div>
           <div>
-            About Us
+            <img src={aboutus} alt="About Us"></img>
           </div>
           <div>
-            Contact Us
+            <img src={contactus} alt="Contact Us"></img>
           </div>
         </nav>
     </header>

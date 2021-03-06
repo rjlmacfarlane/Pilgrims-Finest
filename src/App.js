@@ -4,7 +4,7 @@ import Products from './components/Products'
 
 function App() {
   return (
-    <div className="App text-cornsilk bg-body bg-dark">      
+    <div className="App text-cornsilk bg-black bg-body">      
       <Navigation />
       <Body />
       <Products />

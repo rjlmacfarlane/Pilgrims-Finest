@@ -13,8 +13,7 @@ module.exports = {
       backgroundImage: theme => ({
         'nav': 'url("https://www.transparenttextures.com/patterns/black-linen.png")',
         'body': 'url("https://www.transparenttextures.com/patterns/black-linen.png")',
-        'hero-image': 'url("/src/images/index.png")',
-        'dark': 'rgb(26,26,26)'
+        'hero-image': 'url("/src/images/index.png")'
       }),
       height: {
         'half-screen': '57vh'
