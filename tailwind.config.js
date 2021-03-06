@@ -11,8 +11,12 @@ module.exports = {
         'medula': ['Medula One', 'cursive']
       },
       backgroundImage: theme => ({
-        'navbg': 'url("https://www.transparenttextures.com/patterns/black-linen.png")'
-      })
+        'navbg': 'url("https://www.transparenttextures.com/patterns/black-linen.png")',
+        'hero-image': 'url("/src/images/index.png")'
+      }),
+      height: {
+        'half-screen': '57vh'
+      }
     },
   },
   variants: {
