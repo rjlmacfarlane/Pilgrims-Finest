@@ -27,11 +27,11 @@ const Navigation = () => {
     }
   }, [scrollState])
 
-  const bgColor = scrollState === "amir" ? 'bg-blood-red bg-navbg' : ''
+  const bgColor = scrollState === "amir" ? 'bg-blood-red bg-nav' : ''
 
   return (
     <header className="fixed z-50 w-full">
-        <nav className={`transition duration-500 ease-in-out  ${bgColor} flex w-full justify-around items-center  font-medula text-5xl py-12`}>
+        <nav className={`transition duration-500 ease-in-out  ${bgColor} flex w-full justify-around items-center  font-medula text-5xl py-8`}>
           <div>
             <img src={logo} alt="Pilgrim's Finest Logo"></img>
           </div>
