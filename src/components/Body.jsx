@@ -3,9 +3,9 @@ import header from '../images/home-header.png'
 
 const Body = () => {
   return (
-    <div className="bg-black">
+    <div className="">
       <div className="bg-fixed bg-contain bg-no-repeat h-half-screen bg-hero-image relative"></div>
-      <div className="bg-black prose max-w-none text-cornsilk text-center my-8 mx-24">
+      <div className=" prose max-w-none text-cornsilk text-center my-8 mx-24">
         <div className="flex justify-center">
           <img src={header} alt="Born in Newfoundland, Raised in Nova Scotia"></img>
         </div>
