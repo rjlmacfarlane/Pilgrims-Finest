@@ -1,10 +1,13 @@
 import Navigation from './components/Navigation'
 import Body from './components/Body'
+import Products from './components/Products'
+
 function App() {
   return (
-    <div className="App text-cornsilk">      
+    <div className="App text-cornsilk bg-eerie-black bg-body">      
       <Navigation />
       <Body />
+      <Products />
     </div>
   );
 }
