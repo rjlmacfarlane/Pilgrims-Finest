@@ -22,7 +22,7 @@ module.exports = {
         DEFAULT: {
           css: {
             color: '#fff5d5',
-            h1: {
+            'h1, h3': {
               color:'#fff5d5'
             }
           }

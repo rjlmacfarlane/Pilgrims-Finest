@@ -13,7 +13,7 @@ const ProductList = () => {
   }) : ""
   
   return (
-    <div className='grid grid-cols-3'>
+    <div className='grid grid-cols-3 gap-12'>
       {renderedProducts}
     </div>
   );

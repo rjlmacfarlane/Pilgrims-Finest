@@ -44,7 +44,7 @@ const Navigation = () => {
 
             <button onClick={() => toTop()}>
               <img className="cursor-pointer " src={logo} alt="Pilgrim's Finest Logo"></img>
-            </button>
+            </button  >
             {/* <img src={logo} alt="Pilgrim's Finest Logo"></img> */}
           </div>
           <div className="p-3 flex justify-center">
