@@ -1,12 +1,11 @@
 import React from 'react';
-import Navigation from './Navigation';
-import DropDownNavigationLinks from './DropDownNavigationLinks';
+import NavigationWithScrollHook from './NavigationWithScrollHook';
 
 const index = () => {
-  return (
+
+  return (  
     <div>
-      <Navigation />
-      <DropDownNavigationLinks />
+      <NavigationWithScrollHook />
     </div>
   );
 };
