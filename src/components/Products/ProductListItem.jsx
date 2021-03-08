@@ -7,7 +7,7 @@ const ProductListItem = ({ product }) => {
   };
 
   return (
-    <div className="flex justify-center prose">
+    <div className="flex justify-center prose mx-auto">
       <div className="w-96 h-96 flex relative group">
         <div
           className="absolute inset-0 bg-cover bg-center z-0"

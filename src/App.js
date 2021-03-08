@@ -6,13 +6,14 @@ import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
 
 function App() {
+
   return (
     <div className="App text-cornsilk bg-eerie-black bg-body">
       <Navigation />
       <Body />
       <Products />
       <AboutUs />
-      <div className="contact box col-span-3"></div>
+      <div className="contact box"></div>
       <Contact />
     </div>
   );
