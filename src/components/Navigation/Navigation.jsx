@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../images/logo.png';
+import logo from '../../images/logo.png';
 
 const Navigation = () => {
 
@@ -34,7 +34,7 @@ const Navigation = () => {
   };
 
   return (
-    // PRODUCT SECTION
+    
     <header className="fixed z-50">
       <nav
         className={`transition duration-500 ease-in-out  ${bgColor} grid grid-cols-4  justify-around items-center font-medula text-xl md:text-5xl py-5`}
