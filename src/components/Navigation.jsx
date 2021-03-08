@@ -3,11 +3,7 @@ import logo from '../images/logo.png';
 import './Navigation.css';
 
 const Navigation = () => {
-  const bgUrl =
-    'https://raw.githubusercontent.com/rjlmacfarlane/Pilgrims-Finest/master/src/images/index.png';
-  const bgStyle = {
-    backgroundImage: 'url(' + bgUrl + ')',
-  };
+
   const [scrollState, setScrollState] = useState('top');
 
   useEffect(() => {

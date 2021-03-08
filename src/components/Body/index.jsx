@@ -1,5 +1,5 @@
 import React from 'react';
-import header from '../images/home-header.png';
+import header from '../../images/home-header.png';
 
 const Body = () => {
   return (
