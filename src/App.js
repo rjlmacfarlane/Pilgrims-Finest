@@ -4,6 +4,7 @@ import Body from './components/Body';
 import Products from './components/Products';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <AboutUs />
       <div className="contact box"></div>
       <Contact />
+      <Footer />
     </div>
   );
 }
