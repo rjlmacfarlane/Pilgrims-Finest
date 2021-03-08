@@ -1,7 +1,6 @@
 import React from 'react';
 import useApplicationData from '../../hooks/useApplicationData';
 import ProductListItem from './ProductListItem';
-import './ProductList.css';
 
 const ProductList = () => {
   const { state } = useApplicationData();
