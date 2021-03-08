@@ -1,6 +1,7 @@
 import React from 'react';
 import useApplicationData from "../../hooks/useApplicationData";
 import ProductListItem from './ProductListItem';
+import './ProductList.css';
 
 const ProductList = () => {
   const { state } = useApplicationData();
@@ -14,6 +15,7 @@ const ProductList = () => {
   
   return (
     <div className='grid grid-cols-3 gap-12'>
+      <div className="products box col-span-3"></div>
       {renderedProducts}
     </div>
   );

@@ -6,7 +6,8 @@ const ProductListItem = ({product}) => {
   }
   return (
     <div className="flex justify-center prose">
-      <div class="w-96 h-96 relative group">
+
+      <div class="w-96 h-96 flex relative group">
         <div class="absolute inset-0 bg-cover bg-center z-0" style={bgImage}></div>
         <div class="absolute inset-0 bg-cover bg-center z-0 group-hover:bg-black group-hover:opacity-50"></div>
         <div className="opacity-0 group-hover:opacity-100 duration-300 absolute top-12 px-6 text-cornsilk font-semibold flex flex-col justify-center items-center">

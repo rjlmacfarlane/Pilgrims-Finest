@@ -1,6 +1,7 @@
 import Navigation from './components/Navigation'
-import Body from './components/Body'
-import Products from './components/Products'
+import Body from './components/Body';
+import Products from './components/Products';
+import AboutUs from './components/AboutUs';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navigation />
       <Body />
       <Products />
+      <AboutUs />
     </div>
   );
 }
