@@ -1,4 +1,4 @@
-/* img.logo {
+img.logo {
   position:absolute;
   max-height:90%;
   top:0%;
@@ -19,4 +19,4 @@ img.log img.glow {
   filter: brightness(0) invert(1) blur(5px);
   -webkit-filter: brightness(0) invert(1) blur(5px);
   opacity:0;
-} */
+} 
