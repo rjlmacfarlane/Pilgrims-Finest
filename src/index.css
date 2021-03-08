@@ -1,3 +1,54 @@
 @tailwind base;
+@layer base {
+  .box {
+    width: 100%;
+    height: 600px;
+  }
+  
+  .about {
+    height: 60vh;
+    background-image: url("./images/box-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  
+  .products {
+    height: 60vh;
+    background-image: url("./images/box-2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  
+  .contact {
+    height: 60vh;
+    background-image: url("./images/box-3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  
+}
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+	.btn {
+			@apply px-4 py-0.5 font-semibold tracking-widest rounded-lg border-2 cursor-pointer text-center no-underline object-contain;
+	}
+
+	.btn-primary,
+	.btn-primary:visited {
+		@apply bg-blood-red border-blood-red text-white;
+	}
+	.btn-primary:hover,
+	.btn-primary:visited:hover {
+		@apply bg-white border-blood-red text-blood-red;
+	}
+	.btn-secondary {
+		@apply border-cornsilk bg-white;
+	}
+}
+
