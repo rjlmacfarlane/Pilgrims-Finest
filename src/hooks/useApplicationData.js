@@ -1,15 +1,15 @@
-import { useEffect, useReducer } from "react";
-import axios from 'axios'
-import reducer, { SET_APPLICATION_DATA } from '../reducers/application'
+import { useEffect, useReducer } from 'react';
+import axios from 'axios';
+import reducer, { SET_APPLICATION_DATA } from '../reducers/application';
 
 export default function useApplicationData() {
   const [state, dispatch] = useReducer(reducer, {
-    productData: []
+    productData: [],
   });
 
   // RETRIEVES API AND SETS IT WITH REDUCER
   useEffect(() => {
-      axios.get("/productInfo.json").then((res) => {
+    axios.get('/productInfo.json').then((res) => {
       const productData = res.data;
       dispatch({
         type: SET_APPLICATION_DATA,
@@ -18,6 +18,6 @@ export default function useApplicationData() {
     });
   }, []);
   return {
-    state
+    state,
   };
 }

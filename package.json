@@ -4,11 +4,15 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@tailwindcss/typography": "^0.4.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.1",
     "axios": "^0.21.1",
+    "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
@@ -41,6 +45,7 @@
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "autoprefixer": "^9.8.6",
+    "eslint": "^7.21.0",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
   }
