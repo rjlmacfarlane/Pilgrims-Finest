@@ -1,11 +1,11 @@
 import React from 'react';
-import NavigationWithScrollHook from './NavigationWithScrollHook';
+import Navigation from './Navigation';
 
 const index = () => {
 
   return (  
     <div>
-      <NavigationWithScrollHook />
+      <Navigation />
     </div>
   );
 };

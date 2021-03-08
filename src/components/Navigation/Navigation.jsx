@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import NavigationLinks from './NavigationLinks';
 import DropDownNavigationLinks from './DropDownNavigationLinks';
+import NavigationLogo from './NavigationLogo';
 
 const NavigationWithScrollHook = () => {
   const [scrollState, setScrollState] = useState('top');
@@ -28,10 +29,11 @@ const NavigationWithScrollHook = () => {
 
   return (
     
-    <header className="fixed z-50">
+    <header className="fixed z-50 w-full">
       <nav
-        className={`transition duration-500 ease-in-out  ${bgColor} grid grid-cols-4  justify-around items-center font-medula text-xl md:text-5xl py-5`}
+        className={`transition duration-500 ease-in-out  ${bgColor} grid grid-cols-4  justify-around items-center font-medula text-xl md:text-4xl lg:text-5xl py-5`}
       >
+      <NavigationLogo />
       <NavigationLinks />
       <DropDownNavigationLinks />
     </nav>

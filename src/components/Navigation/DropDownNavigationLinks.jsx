@@ -4,7 +4,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const DropDownNavigationLinks = () => {
   return (
-    <div className="relative group lg:hidden flex flex-col ml-4">
+    <div className="relative group md:hidden flex flex-col ml-4">
     <button className="flex items-center w-full py-4 mt-4 text-2xl font-bold text-left text-white uppercase bg-transparent rounded-lg md:w-auto md:inline md:mt-6 md:ml-4 focus:outline-none font-montserrat">
     <FontAwesomeIcon className="text-white fa-2x" icon={faBars} /> 
     </button>
