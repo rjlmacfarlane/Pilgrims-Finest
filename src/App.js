@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <div className="App text-cornsilk bg-eerie-black bg-body">
+    <div className="App text-cornsilk bg-eerie-black bg-body w-full">
       <Navigation />
       <Body />
       <Products />

@@ -34,9 +34,10 @@ const Navigation = () => {
   };
 
   return (
-    <header className="fixed z-50 w-full">
+    // PRODUCT SECTION
+    <header className="fixed z-50">
       <nav
-        className={`transition duration-500 ease-in-out  ${bgColor} grid grid-cols-4 w-full justify-around items-center font-medula text-5xl py-5`}
+        className={`transition duration-500 ease-in-out  ${bgColor} grid grid-cols-4  justify-around items-center font-medula text-xl md:text-5xl py-5`}
       >
         <div className="p-3 flex justify-center">
           <button onClick={() => toTop()}>
@@ -46,7 +47,6 @@ const Navigation = () => {
               alt="Pilgrim's Finest Logo"
             ></img>
           </button>
-          {/* <img src={logo} alt="Pilgrim's Finest Logo"></img> */}
         </div>
         <div className="p-3 flex justify-center">
           <span className="hover:text-yellow-500 cursor-pointer">Our Products</span>

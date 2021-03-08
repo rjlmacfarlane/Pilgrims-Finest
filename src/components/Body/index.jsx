@@ -2,10 +2,10 @@ import React from 'react';
 import header from '../../images/home-header.png';
 
 const Body = () => {
-  
+
   return (
     <div className="">
-      <div className="bg-fixed bg-contain bg-no-repeat h-half-screen bg-hero-image relative"></div>
+      <div className="bg-fixed bg-auto bg-top md:bg-contain bg-no-repeat h-half-screen bg-hero-image relative"></div>
       <div className=" prose max-w-none text-cornsilk text-center my-8 mx-24">
         <div className="flex justify-center">
           <img src={header} alt="Born in Newfoundland, Raised in Nova Scotia"></img>
