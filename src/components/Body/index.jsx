@@ -2,6 +2,7 @@ import React from 'react';
 import header from '../../images/home-header.png';
 
 const Body = () => {
+  
   return (
     <div className="">
       <div className="bg-fixed bg-contain bg-no-repeat h-half-screen bg-hero-image relative"></div>

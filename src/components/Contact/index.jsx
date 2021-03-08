@@ -73,8 +73,12 @@ const Contact = () => {
   }
 
   return (
-    <div className="flex justify-center mt-8">
-      <form className="w-full max-w-lg" onSubmit={(e) => sendEmail(e)}>  
+    <div className="py-8 grid grid-cols-3">
+      <div className="flex flex-col justify-center items-center space-y-3 col-span-2">
+        <div className="text-6xl">Insert Call to Action Text Here!!</div>
+        <p className="text-2xl">This is some more text you can use to attract your customers to buy your delicious looking bread!</p>
+      </div>
+      <form className="w-full max-w-lg col-start-3 flex flex-col justify-center" onSubmit={(e) => sendEmail(e)}>  
         <NameInput firstName={firstName} lastName={lastName} onFirstNameChange={onFirstNameChange} onLastNameChange={onLastNameChange}/>
         <EmailInput email={email} onEmailChange={onEmailChange}/>
         <SubjectInput subject={subject} onSubjectChange={onSubjectChange} />

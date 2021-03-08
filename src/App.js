@@ -12,7 +12,7 @@ function App() {
       <Body />
       <Products />
       <AboutUs />
-      <div className="contact box"></div>
+      <div className="contact box col-span-3"></div>
       <Contact />
     </div>
   );

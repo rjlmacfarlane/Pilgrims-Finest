@@ -13,8 +13,8 @@ const ProductList = () => {
     : '';
 
   return (
-    <div className="grid grid-cols-3 gap-12">
-      <div className="products box col-span-3"></div>
+    <div className="grid grid-cols-3 gap-12 my-24 mx-auto">
+      <h2 className="text-6xl col-span-3 flex justify-center">Our Products</h2>
       {renderedProducts}
     </div>
   );
