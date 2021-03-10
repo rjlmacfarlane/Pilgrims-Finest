@@ -13,20 +13,20 @@ const ProductList = () => {
     : '';
 
     return (
-      <section id="portfolio">
+      <section id="products">
 
-      <div className="row">
+        <div className="">
 
-         <div className="twelve columns collapsed">
+          <div className="">
 
-            <h1>Products</h1>
+              <h1>Products</h1>
 
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {renderedProducts}
+              <div id="product-wrapper" className="">
+                  {renderedProducts}
+              </div>
             </div>
-          </div>
-      </div>
-   </section>
+        </div>
+      </section>
     );
 };
 

@@ -242,6 +242,12 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
    justify-content: center;
 }
+
+#products-wrapper {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
 #products-wrapper .columns { margin-bottom: 36px; }
 
 #products a, #products a:visited  { color: #c53e00; }
@@ -288,6 +294,9 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+.product-item {
+   width: 28vw;
+}
 
 #portfolio {
    background: #ebeeee;
@@ -394,6 +403,9 @@ ul#nav li.current a { color: #F06000; }
 	filter:alpha(opacity=100);
 } */
 
+#product-wrapper {
+   display: flex;
+}
 /* popup modal */
 .popup-modal {
 	max-width: 550px;
