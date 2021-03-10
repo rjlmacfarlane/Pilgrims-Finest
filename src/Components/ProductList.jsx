@@ -5,7 +5,7 @@ import ProductListItem from './ProductListItem';
 const ProductList = () => {
   const { state } = useApplicationData();
   const products = state.productData.products;
-
+  console.log(state);
   const renderedProducts = products
     ? products.map((product, key) => {
         return <ProductListItem product={product} key={key} />;
