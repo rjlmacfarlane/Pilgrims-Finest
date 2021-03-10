@@ -24,12 +24,12 @@
       },
       {
         "name":"email",
-        "url":"marketing@pilgrimsfinest.com",
+        "url":"mailto:marketing@pilgrimsfinest.com",
         "className":"fa fa-envelope"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/",
+        "url":"http://instagram.com/pilgrimsfinestbedford",
         "className":"fa fa-instagram"
       }
     ]
@@ -83,7 +83,7 @@
       },
       {
         "name": "Traditional Sourdough",
-        "description": "Playful cinnamon accents make this braided loaf a delightful treat to enjoy over the holiday season. Prepare your favourite french toast batter recipe for a unique and impressive breakfast offering!",
+        "description": "Tender and soft, our traditional sourdough is made with humble and straightforward ingredients which product beautiful, life-giving sustenance. A modern day alchemy!",
         "photo": "sourdough.png",
         "nutrition-info": "url/photo",
         "available": "no",
@@ -120,7 +120,7 @@
       },
       {
         "title":"Cinnamon Babka",
-        "category":"These were available at Noggins Sante Centre over the 2020 holidays. Check back in 2021!",
+        "category":"These were available at Noggins Sante Centre over the 2020 holidays. Check back around Easter 2021!",
         "image":"gallery05.jpg",
         "url":"#portfolio"
       },
@@ -148,15 +148,19 @@
     "testimonials":[
       {
         "text":"It has become a staple in our home. Everything is delicious, and it's often still warm when we pick it up! The butter melts just like I remember as a kid on baking day.",
-        "user":"Iris Chanterelle, Halifax"
+        "user":"Iris Chanterelle, Halifax, NS"
       },
       {
-        "text":"I thought she was going to quit, but then she came in with an awesome loaf of bread, and I knew we had to get it on the shelf.",
+        "text":"You can't find bread like this anywhere, and it stays fresh even beyond the dates on the bag!",
         "user":"Grace Rajaretnam, Halifax, NS"
       },
       {
         "text":"Pilgrim's Finest has some of the tastiest bread, period. My favourite is the honey whole wheat; it makes for a tasty snack!",
-        "user":"Rita Griffin, St. John's NL"
+        "user":"Rita Griffin, St. John's, NL"
+      },
+      {
+        "text":"My family enjoys the dinner rolls. Stayed fresh for days!",
+        "user":"Noggins Patron, Bedford, NS"
       }
     ]
   }
