@@ -95,52 +95,52 @@
   "gallery":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Fresh Whole Wheat",
+        "category":"Fresh out of the oven. A staple in every home!",
         "image":"gallery01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"#portfolio"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"Herb & Cheddar Focaccia",
+        "category":"Pairs beautifully with an italian dish",
         "image":"gallery02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"#portfolio"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Sundried Tomato & Basil Focaccia",
+        "category":"Enjoy with a glass of valpolicella",
         "image":"gallery03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"#portfolio"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
+        "title":"Honey Whole Wheat",
+        "category":"Just like grandma used to make",
         "image":"gallery04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"#portfolio"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "title":"Cinnamon Babka",
+        "category":"These were available at Noggins Sante Centre over the 2020 holidays. Check back in 2021!",
         "image":"gallery05.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"#portfolio"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "title":"Dinner Rolls",
+        "category":"Made by special order, these are dressed with sesame and poppy seeds.",
         "image":"gallery06.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"#portfolio"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "title":"Rustic Dinner Rolls",
+        "category":"Rustic and homestyle, they melt your tastebuds like butter",
         "image":"gallery07.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"#portfolio"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "title":"Traditional Sourdough",
+        "category":"Coming soon by popular demand!",
         "image":"gallery08.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"#portfolio"
       }
     ]
   },
