@@ -46,9 +46,9 @@
         "wholesale": "$4.50"
       },
       {
-        "name": "Italian Herb and Old Cheddar",
+        "name": "Italian Herb and Old Cheddar Focaccia",
         "description": "Traditional Focaccia bread made with a blend of Italian spices and old cheddar. Pairs well with tomato-based pasta dishes, Merlot (oaked, dry), Cabernet Sauvignon, and Sangiovese. A taste of Italy!",
-        "photo": "honey-oat.png",
+        "photo": "ihoc-focaccia.png",
         "nutrition-info": "url/photo",
         "available": "yes",
         "locations": ["Noggins Sante Centre"],
@@ -75,7 +75,7 @@
       {
         "name": "Cinnamon Babka",
         "description": "Playful cinnamon accents make this braided loaf a delightful treat to enjoy over the holiday season. Prepare your favourite french toast batter recipe for a unique and impressive breakfast offering!",
-        "photo": "honey-oat.png",
+        "photo": "cinna-babka.png",
         "nutrition-info": "url/photo",
         "available": "soon",
         "locations": ["Noggins Sante Centre"],
@@ -84,7 +84,7 @@
       {
         "name": "Traditional Sourdough",
         "description": "Playful cinnamon accents make this braided loaf a delightful treat to enjoy over the holiday season. Prepare your favourite french toast batter recipe for a unique and impressive breakfast offering!",
-        "photo": "honey-oat.png",
+        "photo": "sourdough.png",
         "nutrition-info": "url/photo",
         "available": "no",
         "locations": ["Noggins Sante Centre"],
