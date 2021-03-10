@@ -248,6 +248,7 @@ ul#nav li.current a { color: #F06000; }
    justify-content: space-evenly;
    flex-wrap: wrap;
 }
+
 #products-wrapper .columns { margin-bottom: 36px; }
 
 #products a, #products a:visited  { color: #c53e00; }

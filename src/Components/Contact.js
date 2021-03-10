@@ -1,18 +1,66 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
+import emailjs, { init } from 'emailjs-com';
 
-class Contact extends Component {
-  render() {
+init("user_rivxf7OIBzCWd9dlHiDrz");
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var message = this.props.data.contactmessage;
-    }
+const Contact = () => {
+   const [name, setName] = useState('')
+   const [email, setEmail] = useState('')
+   const [subject, setSubject] = useState('')
+   const [message, setMessage] = useState('')
+
+   const onNameChange = (event) => {
+      setName(event.target.value)
+      console.log("name changed to: ", name);
+   }
+
+
+   const onEmailChange = (event) => {
+      setEmail(event.target.value)
+      console.log("email: ", email,);
+
+   }
+
+   const onSubjectChange = (event) => {
+      setSubject(event.target.value)
+      console.log("subject: ", subject );
+
+   }
+
+   const onMsgChange = (event) => {
+      setMessage(event.target.value)
+      console.log("message: ", message );
+
+   }
+
+   function sendEmail(e) {
+      e.preventDefault();
+
+      const messageDetails = {
+      name,
+      email,
+      subject,
+      message
+      }
+
+      console.log("submit button clicked with these message details: ", messageDetails);
+      emailjs.send('service_xcnmobs', 'template_p1nhl97', messageDetails)
+      .then((result) => {
+            console.log(result);
+            alert("Message Sent."); 
+            resetForm()
+      }, (error) => {
+            console.log(error.text);
+      });
+   }
+
+   const resetForm = () =>{
+      setSubject('')
+      setEmail('')
+      setName('')
+      setMessage('')
+   }
+
 
     return (
       <section id="contact">
@@ -41,26 +89,26 @@ class Contact extends Component {
 
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <input type="text" value={name} size="35" id="contactName" name="contactName" onChange={(event) => onNameChange(event)}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <input type="text" value={email} size="35" id="contactEmail" name="contactEmail" onChange={(event) => onEmailChange(event)}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+						   <input type="text" size="35" id="contactSubject" name="contactSubject" value={subject} onChange={(event) => onSubjectChange(event)}/>
                   </div>
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" value={message} onChange={(event) => onMsgChange(event)}></textarea>
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit" onClick={(e) => sendEmail(e)}>Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
@@ -93,6 +141,5 @@ class Contact extends Component {
    </section>
     );
   }
-}
 
 export default Contact;
