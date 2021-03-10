@@ -1,7 +1,3 @@
-# Pilgrims-Finest
-
-Website for Pilgrim's Finest Homemade Bread
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
