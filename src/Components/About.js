@@ -29,12 +29,12 @@ class About extends Component {
                <div className="columns contact-details">
                   <h2>Available Exclusively At:</h2>
                   <p className="address">
-						   <span>{name}</span><br />
+						   <span><a href="https://nogginsfarm.ca/">{name}</a></span><br />
 						   <span>{street}<br />
 						         {city} {state}, {zip}
                    </span><br />
 						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                     <span><a href="#contact">{email}</a></span>
 					   </p>
                </div>
                <div className="columns download">

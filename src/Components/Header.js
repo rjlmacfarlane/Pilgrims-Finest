@@ -34,7 +34,7 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <img src="../images/logo-fullsize.png" alt="logo"></img>
+            <img src="../images/logo-fullsize.png" alt="Shop Local Nova Scotia"></img>
             <hr />
             <ul className="social">
                {networks}

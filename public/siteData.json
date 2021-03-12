@@ -24,13 +24,13 @@
       },
       {
         "name":"email",
-        "url":"mailto:marketing@pilgrimsfinest.com",
-        "className":"fa fa-envelope"
+        "url":"#contact",
+        "className":"smoothscroll fa fa-envelope"
       },
       {
         "name":"instagram",
         "url":"http://instagram.com/pilgrimsfinestbedford",
-        "className":"fa fa-instagram"
+        "className":"fa fa-instagram instagram"
       }
     ]
   },
@@ -148,19 +148,19 @@
     "testimonials":[
       {
         "text":"It has become a staple in our home. Everything is delicious, and it's often still warm when we pick it up! The butter melts just like I remember as a kid on baking day.",
-        "user":"Iris Chanterelle, Halifax, NS"
+        "user":"Iris Chanterelle, Halifax, Nova Scotia"
       },
       {
         "text":"You can't find bread like this anywhere, and it stays fresh even beyond the dates on the bag!",
-        "user":"Grace Rajaretnam, Halifax, NS"
+        "user":"Grace Rajaretnam, Halifax, Nova Scotia"
       },
       {
         "text":"Pilgrim's Finest has some of the tastiest bread, period. My favourite is the honey whole wheat; it makes for a tasty snack!",
-        "user":"Rita Griffin, St. John's, NL"
+        "user":"Rita Griffin, St. John's, Newfoundland"
       },
       {
         "text":"My family enjoys the dinner rolls. Stayed fresh for days!",
-        "user":"Noggins Patron, Bedford, NS"
+        "user":"Noggins Patron, Bedford, Nova Scotia"
       }
     ]
   }
