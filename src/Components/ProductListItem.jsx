@@ -9,7 +9,7 @@ const ProductListItem = ({ product }) => {
   return (
     <div className="item-wrap">
       <div className="">
-      <img src={bgImage} alt=""></img>
+      <img src={bgImage} alt="Pilgrim's Finest Bakery"></img>
 
         <div
           className=""
@@ -21,7 +21,7 @@ const ProductListItem = ({ product }) => {
             {product.name}
           </div>
           <div className="">
-            <img src={bgImage} alt=""></img>
+            <img src={bgImage} alt="Pilgrim's Finest Bakery"></img>
             {product.description}
           </div>
         </div>
