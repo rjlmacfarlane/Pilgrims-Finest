@@ -3,6 +3,7 @@ import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
+import Locations from './Components/Locations';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Products from './Components/Products';
@@ -47,10 +48,11 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.SiteData.main}/>
-        <About data={this.state.SiteData.main}/>
+        <Locations data={this.state.SiteData.locations}/>
         <Products data={this.state.SiteData.products}/>
         <PhotoGallery data={this.state.SiteData.gallery}/>
         <Testimonials data={this.state.SiteData.testimonials}/>
+        <About data={this.state.SiteData.main}/>
         <Contact data={this.state.SiteData.main}/>
         <Footer data={this.state.SiteData.main}/>
       </div>

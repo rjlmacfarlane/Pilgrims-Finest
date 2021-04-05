@@ -34,6 +34,25 @@
       }
     ]
   },
+  "locations":{
+    "locations":[
+      {
+        "name": "Noggins Sante Centre",
+        "img": "sante.png",
+        "link": "https://goo.gl/maps/TbsMAuwthJmFXdqCA"
+      },
+      {
+      	"name": "Robie Street Market",
+      	"img": "sante.png",
+      	"link": "https://goo.gl/maps/uig6DQExRu97Uzqx9"
+      },
+      {
+      	"name": "Halifax Forum Market",
+      	"img": "sante.png",
+      	"link": "https://goo.gl/maps/Azn5pggXdYgDi3Vb8"
+      }
+    ]
+  },
   "products":{
     "products": [
       {
