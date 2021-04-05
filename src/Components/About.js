@@ -25,6 +25,7 @@ class About extends Component {
             <h2>Meet Jessica Pilgrim, Founder & CEO</h2>
 
             <p>{bio}</p>
+            <img className="signature" src="images/signature.png" alt="Jessica Pilgrim"></img>
             {/* <div className="row">
                <div className="columns contact-details">
                   <h2>Available Exclusively At:</h2>
