@@ -37,19 +37,34 @@
   "locations":{
     "locations":[
       {
-        "name": "Noggins Sante Centre",
+        "name": "Noggins Corner Bedford",
+        "address": "50 Gary Martin Drive, Bedford",
         "img": "sante.png",
         "link": "https://goo.gl/maps/TbsMAuwthJmFXdqCA"
       },
       {
       	"name": "Robie Street Market",
-      	"img": "sante.png",
+        "address": "2760 Robie Street, Halifax",
+      	"img": "robie.png",
       	"link": "https://goo.gl/maps/uig6DQExRu97Uzqx9"
       },
       {
       	"name": "Halifax Forum Market",
-      	"img": "sante.png",
+        "address": "6205 Almon Street, Halifax",
+      	"img": "forum.png",
       	"link": "https://goo.gl/maps/Azn5pggXdYgDi3Vb8"
+      },
+      {
+        "name": "Alderny Landing Market",
+        "address": "2 Ochterloney Street, Dartmouth",
+        "img": "alderny.png",
+        "link": "https://goo.gl/maps/mCsfCE1WEa5pvgtw8"
+      },
+      {
+        "name": "Noggins Corner Wolfville",
+        "address": "10009 Nova Scotia Trunk 1, Wolfville",
+        "img": "wolfville.png",
+        "link": "https://goo.gl/maps/c1NsQCmUctrGPWbh7"
       }
     ]
   },

@@ -5,7 +5,7 @@ class Products extends Component {
     if(this.props.data){
       var products = this.props.data.products.map(function(products){
         var projectImage = 'images/products/'+products.photo;
-        return <div key={products.name} className="columns portfolio-item product-item">
+        return <div key={products.name} className="columns portfolio-item">
            <div className="item-wrap">
             <a href="/" title={products.name}>
               <img alt={products.name} src={projectImage} />
