@@ -29,7 +29,7 @@
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/pilgrimsfinestbedford",
+        "url":"http://instagram.com/pilgrimsfinestbread",
         "className":"fa fa-instagram instagram"
       }
     ]
@@ -92,58 +92,159 @@
       }
     ]
   },
-  "gallery":{
-    "projects": [
-      {
-        "title":"Fresh Whole Wheat",
-        "category":"Fresh out of the oven. A staple in every home!",
-        "image":"gallery01.jpg",
-        "url":"#portfolio"
-      },
-      {
-        "title":"Herb & Cheddar Focaccia",
-        "category":"Pairs beautifully with an italian dish",
-        "image":"gallery02.jpg",
-        "url":"#portfolio"
-      },
-      {
-        "title":"Sundried Tomato & Basil Focaccia",
-        "category":"Enjoy with a glass of valpolicella",
-        "image":"gallery03.jpg",
-        "url":"#portfolio"
-      },
-      {
-        "title":"Honey Whole Wheat",
-        "category":"Just like grandma used to make",
-        "image":"gallery04.jpg",
-        "url":"#portfolio"
-      },
-      {
-        "title":"Cinnamon Babka",
-        "category":"These were available at Noggins Sante Centre over the 2020 holidays. Check back around Easter 2021!",
-        "image":"gallery05.jpg",
-        "url":"#portfolio"
-      },
-      {
-        "title":"Dinner Rolls",
-        "category":"Made by special order, these are dressed with sesame and poppy seeds.",
-        "image":"gallery06.jpg",
-        "url":"#portfolio"
-      },
-      {
-        "title":"Rustic Dinner Rolls",
-        "category":"Rustic and homestyle, they melt your tastebuds like butter",
-        "image":"gallery07.jpg",
-        "url":"#portfolio"
-      },
-      {
-        "title":"Traditional Sourdough",
-        "category":"Coming soon by popular demand!",
-        "image":"gallery08.jpg",
-        "url":"#portfolio"
-      }
-    ]
-  },
+  "gallery":[
+    {
+      "src": "images/gallery/001.jpg",
+      "thumbnail": "images/gallery/thumbs/001.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 262,
+      "caption": "Honey Whole Wheat, Baked With Love"
+    },
+    {
+      "src": "images/gallery/002.jpg",
+      "thumbnail": "images/gallery/thumbs/002.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 263,
+      "caption": "Italian Herb & Old Cheddar Focaccia on Delivery Day @ Noggins Sante Centre"
+    },
+    {
+      "src": "images/gallery/003.jpg",
+      "thumbnail": "images/gallery/thumbs/003.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 263,
+      "caption": "Sundried Tomato & Basil Focaccia, fresh out of the oven!"
+    },
+    {
+      "src": "images/gallery/004.jpg",
+      "thumbnail": "images/gallery/thumbs/004.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 263,
+      "caption": "Honey whole wheat, crafted lovingly by hand"
+    },
+    {
+      "src": "images/gallery/005.jpg",
+      "thumbnail": "images/gallery/thumbs/005.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 263,
+      "caption": "Cinnamon Babka, a holiday treat. Get it while it lasts!"
+    },
+    {
+      "src": "images/gallery/006.jpg",
+      "thumbnail": "images/gallery/thumbs/006.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 263,
+      "caption": "Sesame & Poppy Seed Hamburger Buns"
+    },
+    {
+      "src": "images/gallery/007.jpg",
+      "thumbnail": "images/gallery/thumbs/007.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 263,
+      "caption": "Rustic, homestyle dinner rolls"
+    },
+    {
+      "src": "images/gallery/008.jpg",
+      "thumbnail": "images/gallery/thumbs/008.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 263,
+      "caption": "Traditional Sourdough, a versatile & tender classic"
+    },
+    {
+      "src": "images/gallery/009.jpg",
+      "thumbnail": "images/gallery/thumbs/009.jpg",
+      "thumbnailWidth": 468,
+      "thumbnailHeight": 263,
+      "caption": "Another fresh batch of honey whole wheat!"
+    },
+    {
+      "src": "images/gallery/010.jpg",
+      "thumbnail": "images/gallery/thumbs/010.jpg",
+      "thumbnailWidth": 468,
+      "thumbnailHeight": 263,
+      "caption": "Cinnamon Babka on a limited run for Easter 2021"
+    },
+    {
+      "src": "images/gallery/011.jpg",
+      "thumbnail": "images/gallery/thumbs/011.jpg",
+      "thumbnailWidth": 400,
+      "thumbnailHeight": 320,
+      "caption": "Does it get any better than Chocolate Babka?"
+    },
+    {
+      "src": "images/gallery/012.jpg",
+      "thumbnail": "images/gallery/thumbs/012.jpg",
+      "thumbnailWidth": 300,
+      "thumbnailHeight": 300,
+      "caption": "It's the little pleasures in life!"
+    },
+    {
+      "src": "images/gallery/013.jpg",
+      "thumbnail": "images/gallery/thumbs/013.jpg",
+      "thumbnailWidth": 337,
+      "thumbnailHeight": 263,
+      "caption": "Italian Herb & Old Cheddar Focaccia, the perfect partner to soup, pasta, or a unique sandwich bread!"
+    },
+    {
+      "src": "images/gallery/014.jpg",
+      "thumbnail": "images/gallery/thumbs/014.jpg",
+      "thumbnailWidth": 300,
+      "thumbnailHeight": 300,
+      "caption": "Enjoy a fresh slice of Honey Whole Wheat out at the cabin with friends & family"
+    },
+    {
+      "src": "images/gallery/015.jpg",
+      "thumbnail": "images/gallery/thumbs/015.jpg",
+      "thumbnailWidth": 300,
+      "thumbnailHeight": 300,
+      "caption": "Chocolate Babka prepped and ready to be baked to perfection!"
+    },
+    {
+      "src": "images/gallery/016.jpg",
+      "thumbnail": "images/gallery/thumbs/016.jpg",
+      "thumbnailWidth": 240,
+      "thumbnailHeight": 300,
+      "caption": "Freshly braided Cinnamon Babka ready for the oven"
+    },
+    {
+      "src": "images/gallery/017.jpg",
+      "thumbnail": "images/gallery/thumbs/017.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 180,
+      "caption": "Freshly baked Cinnamon Babka straight from the oven!"
+    },
+    {
+      "src": "images/gallery/018.jpg",
+      "thumbnail": "images/gallery/thumbs/018.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 180,
+      "caption": "Seasonal Babkas fresh on the shelf. Still warm!"
+    },
+    {
+      "src": "images/gallery/019.jpg",
+      "thumbnail": "images/gallery/thumbs/019.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 320,
+      "caption": "The perfect compliment to a savory dinner!"
+    },
+    {
+      "src": "images/gallery/020.jpg",
+      "thumbnail": "images/gallery/thumbs/020.jpg",
+      "thumbnailWidth": 398,
+      "thumbnailHeight": 263
+    },
+    {
+      "src": "images/gallery/021.jpg",
+      "thumbnail": "images/gallery/thumbs/021.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 400
+    },
+    {
+      "src": "images/gallery/022.jpg",
+      "thumbnail": "images/gallery/thumbs/022.jpg",
+      "thumbnailWidth": 320,
+      "thumbnailHeight": 400
+    }    
+  ],
   "testimonials":{
     "testimonials":[
       {

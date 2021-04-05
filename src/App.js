@@ -8,7 +8,7 @@ import About from './Components/About';
 import Products from './Components/Products';
 import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
-import Gallery from './Components/Gallery';
+import PhotoGallery from './Components/Gallery';
 
 class App extends Component {
 
@@ -49,7 +49,7 @@ class App extends Component {
         <Header data={this.state.SiteData.main}/>
         <About data={this.state.SiteData.main}/>
         <Products data={this.state.SiteData.products}/>
-        <Gallery data={this.state.SiteData.gallery}/>
+        <PhotoGallery data={this.state.SiteData.gallery}/>
         <Testimonials data={this.state.SiteData.testimonials}/>
         <Contact data={this.state.SiteData.main}/>
         <Footer data={this.state.SiteData.main}/>

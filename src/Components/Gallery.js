@@ -1,45 +1,34 @@
 import React, { Component } from 'react';
+import Gallery from 'react-grid-gallery';
 
-class Portfolio extends Component {
-  render() {
-
-    if(this.props.data){
-      var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
-        return <div key={projects.title} className="columns portfolio-item">
-           <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-               <img alt={projects.title} src={projectImage} />
-               <div className="overlay">
-                  <div className="portfolio-item-meta">
-                 <h5>{projects.title}</h5>
-                     <p>{projects.category}</p>
-                  </div>
-                </div>
-              <div className="link-icon"><i className="fa fa-link"></i></div>
-            </a>
-          </div>
-        </div>
-      })
-    }
+class PhotoGallery extends Component {
+  
+  render () {
+    
+    const images = this.props.data ? this.props.data : []
 
     return (
-      <section id="portfolio">
-
-      <div className="row">
-
-         <div className="twelve columns collapsed">
-
-            <h1>Gallery</h1>
-
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
-            </div>
-          </div>
-      </div>
-   </section>
+      <section id="gallery">
+        <div style={{
+            display: "block",
+            background:"#eeeeee",
+            minHeight: "1px",
+            width: "100%",
+            border: "0px solid #ddd",
+            padding: "60px",
+            overflow: "auto"}}>
+            <h1>Photo Gallery</h1>
+            <Gallery
+                images={images}
+                enableLightbox={true}
+                enableImageSelection={false}
+                currentImageWillChange={this.onCurrentImageChange}
+            />            
+        </div>
+        <h1>Follow us on <a href="https://www.instagram.com/pilgrimsfinestbread/">Instagram!</a></h1>
+      </section>
     );
   }
 }
 
-export default Portfolio;
+export default PhotoGallery;
