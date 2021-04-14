@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "name": "Homemade Pizza Kits",
+      "description": "Make your own Pilgrim's Finest Pizza! Enjoy all the deliciousness of a pizza homemade pizza with a fraction of the effort. Our signature dough is ready to spread on the pan or stone, just add your favourite sauce and toppings!",
+      "photo": "./assets/images/products/pizza-kit.png",
+      "nutrition-info": "url/photo",
+      "available": "yes",
+      "locations": ["Noggins Sante Centre"],
+      "wholesale": "$7.55"
+    },
+    {
       "name": "Honey Whole Wheat",
       "description": "Whole wheat bread with organic honey and a hint of organic coconut.",
       "photo": "./assets/images/products/honey-oat.png",
@@ -8,6 +17,15 @@
       "available": "yes",
       "locations": ["Noggins Sante Centre"],
       "wholesale": "$4.50"
+    },
+    {
+      "name": "Traditional Sourdough",
+      "description": "Playful cinnamon accents make this braided loaf a delightful treat to enjoy over the holiday season. Prepare your favourite french toast batter recipe for a unique and impressive breakfast offering!",
+      "photo": "./assets/images/products/honey-oat.png",
+      "nutrition-info": "url/photo",
+      "available": "no",
+      "locations": ["Noggins Sante Centre"],
+      "wholesale": "$7.55"
     },
     {
       "name": "Italian Herb and Old Cheddar",
@@ -42,15 +60,6 @@
       "photo": "./assets/images/products/honey-oat.png",
       "nutrition-info": "url/photo",
       "available": "soon",
-      "locations": ["Noggins Sante Centre"],
-      "wholesale": "$7.55"
-    },
-    {
-      "name": "Traditional Sourdough",
-      "description": "Playful cinnamon accents make this braided loaf a delightful treat to enjoy over the holiday season. Prepare your favourite french toast batter recipe for a unique and impressive breakfast offering!",
-      "photo": "./assets/images/products/honey-oat.png",
-      "nutrition-info": "url/photo",
-      "available": "no",
       "locations": ["Noggins Sante Centre"],
       "wholesale": "$7.55"
     }

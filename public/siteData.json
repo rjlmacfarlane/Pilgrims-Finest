@@ -71,6 +71,15 @@
   "products":{
     "products": [
       {
+        "name": "Homemade Pizza Kits",
+        "description": "Make your own Pilgrim's Finest Pizza! Enjoy all the deliciousness of a homemade pizza with a fraction of the effort. Our signature dough is ready to spread on the pan or stone, just add your favourite sauce and toppings!",
+        "photo": "pizza-kits.png",
+        "nutrition-info": "url/photo",
+        "available": "yes",
+        "locations": ["Noggins Sante Centre"],
+        "wholesale": "$7.55"
+      },
+      {
         "name": "Honey Whole Wheat",
         "description": "Whole wheat bread with organic honey and a hint of organic coconut.",
         "photo": "honey-ww.png",
@@ -78,6 +87,15 @@
         "available": "yes",
         "locations": ["Noggins Sante Centre"],
         "wholesale": "$4.50"
+      },
+      {
+        "name": "Traditional Sourdough",
+        "description": "Tender and soft, our traditional sourdough is made with humble and straightforward ingredients which product beautiful, life-giving sustenance. A modern day alchemy!",
+        "photo": "sourdough.png",
+        "nutrition-info": "url/photo",
+        "available": "no",
+        "locations": ["Noggins Sante Centre"],
+        "wholesale": "$7.55"
       },
       {
         "name": "Italian Herb and Old Cheddar Focaccia",
@@ -112,15 +130,6 @@
         "photo": "cinna-babka.png",
         "nutrition-info": "url/photo",
         "available": "soon",
-        "locations": ["Noggins Sante Centre"],
-        "wholesale": "$7.55"
-      },
-      {
-        "name": "Traditional Sourdough",
-        "description": "Tender and soft, our traditional sourdough is made with humble and straightforward ingredients which product beautiful, life-giving sustenance. A modern day alchemy!",
-        "photo": "sourdough.png",
-        "nutrition-info": "url/photo",
-        "available": "no",
         "locations": ["Noggins Sante Centre"],
         "wholesale": "$7.55"
       }
