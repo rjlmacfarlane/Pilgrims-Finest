@@ -55,7 +55,7 @@
       	"link": "https://goo.gl/maps/Azn5pggXdYgDi3Vb8"
       },
       {
-        "name": "Alderny Landing Market",
+        "name": "O'BEES Food Market",
         "address": "2 Ochterloney Street, Dartmouth",
         "img": "alderny.png",
         "link": "https://goo.gl/maps/mCsfCE1WEa5pvgtw8"
@@ -70,6 +70,15 @@
   },
   "products":{
     "products": [
+      {
+        "name": "Garlic Knots",
+        "description": "A classic Italian snack or side, our heart-healthy garlic knots are made with the perfect blend of garlic powder, oregano and parmesan cheese with just a pinch of salt.",
+        "photo": "garlic-knots.png",
+        "nutrition-info": "url/photo",
+        "available": "yes",
+        "locations": ["Noggins Sante Centre"],
+        "wholesale": "$3.50"
+      },
       {
         "name": "Homemade Pizza Kits",
         "description": "Make your own 12 inch Pilgrim's Finest Pizza! Enjoy all the deliciousness of a homemade pizza with a fraction of the effort. Our signature dough is ready to spread on the pan or stone, just add your favourite sauce and toppings!",
