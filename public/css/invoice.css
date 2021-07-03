@@ -1,0 +1,53 @@
+#main {
+  padding: 25px;
+  width: 720px
+}
+#header {
+  display: flex;
+  flex-direction: column;
+}
+#invoice-date {
+  width: 200px;
+}
+
+#products {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em
+}
+
+#footer {
+  justify-content: right;
+  margin-right: 40px;
+}
+
+#grand-total {
+  background-color: transparent;
+  border: 0px solid;
+}
+
+body {
+  font-size: 1.1em;
+}
+
+select {
+  font-size: 1.1em;
+  background-color: transparent;
+  border: 0px solid;
+  margin-right: 20px;
+  width: 280px;
+}
+
+input {
+  font-size: 1.1em;
+  background-color: transparent;
+  border: 0px solid;
+  width: 75px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 25px;
+}
