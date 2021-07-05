@@ -1,15 +1,6 @@
 const doc = document
 const productList = [
     {
-      "name": "Homemade Pizza Kits",
-      "description": "Make your own Pilgrim's Finest Pizza! Enjoy all the deliciousness of a pizza homemade pizza with a fraction of the effort. Our signature dough is ready to spread on the pan or stone, just add your favourite sauce and toppings!",
-      "photo": "./assets/images/products/pizza-kit.png",
-      "nutrition-info": "url/photo",
-      "available": "yes",
-      "locations": ["Noggins Sante Centre"],
-      "wholesale": "$7.55"
-    },
-    {
       "name": "Honey Whole Wheat",
       "description": "Whole wheat bread with organic honey and a hint of organic coconut.",
       "photo": "./assets/images/products/honey-oat.png",
@@ -44,6 +35,24 @@ const productList = [
       "available": "yes",
       "locations": ["Noggins Sante Centre"],
       "wholesale": "$4.06"
+    },
+    {
+      "name": "Garlic Knots",
+      "description": "A classic Italian snack or side, our heart-healthy garlic knots are made with the perfect blend of garlic powder, oregano and parmesan cheese with just a pinch of salt.",
+      "photo": "garlic-knots.png",
+      "nutrition-info": "url/photo",
+      "available": "yes",
+      "locations": ["Noggins Sante Centre"],
+      "wholesale": "$3.50"
+    },
+    {
+      "name": "Homemade Pizza Kits",
+      "description": "Make your own Pilgrim's Finest Pizza! Enjoy all the deliciousness of a pizza homemade pizza with a fraction of the effort. Our signature dough is ready to spread on the pan or stone, just add your favourite sauce and toppings!",
+      "photo": "./assets/images/products/pizza-kit.png",
+      "nutrition-info": "url/photo",
+      "available": "yes",
+      "locations": ["Noggins Sante Centre"],
+      "wholesale": "$7.55"
     },
     {
       "name": "Chocolate Babka",
