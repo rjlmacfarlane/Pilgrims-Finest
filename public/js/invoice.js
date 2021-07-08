@@ -28,6 +28,15 @@ const productList = [
       "wholesale": "$5.45"
     },
     {
+      "name": "Sea Salt & Pepper Focaccia",
+      "description": "Traditional Focaccia bread made with a blend of Himalayan Sea Salt and fresh cracked pepper. A verstaile snack or a delicious side!",
+      "photo": "",
+      "nutrition-info": "url/photo",
+      "available": "yes",
+      "locations": ["Noggins Sante Centre"],
+      "wholesale": "$4.35"
+    },
+    {
       "name": "Dinner Rolls",
       "description": "White or whole wheat dinner rolls, the perfect companion for a bowl of soup, or to compliment the family dinner.",
       "photo": "./assets/images/products/rolls.png",
