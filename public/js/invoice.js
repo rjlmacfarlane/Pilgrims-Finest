@@ -88,6 +88,7 @@ const vendorList = [
   "King's Produce (Robie)",
   "OBEE's Market Alderney",
 ]
+let productCounter;
 
 window.onload = function() {
   const vendorSelector = doc.getElementById('vendor-list')
@@ -106,9 +107,12 @@ window.onload = function() {
     vendorOption.value = '';
     vendorOption.text = 'Add new vendor...';
     vendorSelector.add(vendorOption);
+
+    addProduct();
 }
 
 function addProduct() {
+  
   const productsContainer = doc.getElementById('products');
   let newDiv;
   let newSelector;
@@ -121,7 +125,7 @@ function addProduct() {
   let newTotal;
 
 // Track total products
-  let productCounter = parseInt(doc.getElementById('product-counter').name);
+  productCounter = parseInt(doc.getElementById('product-counter').name);
 
 
 // Create div for new product
@@ -171,6 +175,14 @@ function addProduct() {
   newTotal.type = 'number';
   newTotal.label = 'total';
 
+// Create remove product button
+  // const deleteProduct = document.createElement('input');
+  // deleteProduct.id = `rmv-${productCounter}`
+  // deleteProduct.setAttribute('type', 'button');
+  // deleteProduct.setAttribute('class', 'btn-delete');
+  // deleteProduct.setAttribute('value', 'x');
+  // deleteProduct.setAttribute('onclick', `removeProduct('${newDiv.id}');`);
+
 // Assemble & Inject
   productsContainer.appendChild(newDiv);
   newDiv.appendChild(newSelector);
@@ -180,11 +192,13 @@ function addProduct() {
   newDiv.appendChild(newQty);
   newDiv.appendChild(newTotalLabel);
   newDiv.appendChild(newTotal);
+  // newDiv.appendChild(deleteProduct);
 
 // Apply Listeners
   doc.querySelector(`#selector-${productCounter}`).addEventListener('change', (e) => {
     e.stopPropagation();
     getPrice(`selector-${productCounter}`);
+    updatePrice(`qty-${productCounter}`);
   });
   doc.querySelector(`#qty-${productCounter}`).addEventListener('change', (e) => {
     e.stopPropagation();
@@ -192,6 +206,27 @@ function addProduct() {
   });
   doc.querySelector('#product-counter').name = productCounter + 1;
 }
+
+function addNewProduct() {
+  if (doc.getElementById(`selector-${productCounter}`).value === '') { 
+    alert('Please select a product');
+    document.getElementById(`selector-${productCounter}`).focus();
+  } else if (doc.getElementById(`qty-${productCounter}`).value === '') {
+    alert('Please enter a quantity');
+    document.getElementById(`qty-${productCounter}`).focus();
+  } else { 
+    addProduct(); 
+  }
+}
+
+function removeProduct(product) {
+  console.log(productCounter);
+  console.log('Delete product button pressed with:', product)
+  document.getElementById(product).remove();
+  updateTotal();
+}
+
+// To make the above two functions work together, it will be necessary to eliminate the hidden DOM counter element and instead track the product count by pushing div IDs into an array. The length of the array will be equal to the number of products on the invoice, and each ID in the array can be used to validate the data input into each div's respective fields.
 
 function getPrice(selector) {
   const listItem = doc.getElementById(selector).value
@@ -223,7 +258,47 @@ function updateTotal() {
 }             
 
 function printInvoice() {
-  document.getElementById('add-product').style.visibility = 'hidden';
-  document.getElementById('print').style.visibility = 'hidden';
-  window.print();
+  console.log(document.getElementById('vendor-list').value)
+  if (sanityCheck() === false) {
+    console.log('Failed sanity check, halted.');
+    return;
+  } else {
+    console.log('Sanity check passed, printing...');
+    document.getElementById('add-product').style.visibility = 'hidden';
+    document.getElementById('print').style.visibility = 'hidden';
+    // const arr = document.getElementsByClassName('btn-delete')
+    // for (let i = 0; i < arr.length; i++) {
+    //   arr[i].style.visibility = 'hidden';
+    // }
+    window.print();
+  }
+}
+
+function restoreButtons() {
+  document.getElementById('add-product').style.visibility = 'visible';
+  document.getElementById('print').style.visibility = 'visible';
+  // const arr = document.getElementsByClassName('btn-delete')
+  // for (let i = 0; i < arr.length; i++) {
+  //   arr[i].style.visibility = 'visible';
+  // }
+}
+
+function sanityCheck() {
+
+  if (document.getElementById('invoice-number').value === '') {
+    alert('Please Input an Invoice Number');
+    document.getElementById('invoice-number').focus();
+    return false;
+  }
+  if (document.getElementById('invoice-date').value === '') {
+    alert('Please Input a Date');
+    document.getElementById('invoice-date').focus();
+    return false;
+  }
+  if (document.getElementById('vendor-list').value === '') {
+    alert('Please Select a Vendor');
+    document.getElementById('vendor-list').focus();
+    return false;
+  }
+  return true;
 }

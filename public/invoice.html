@@ -8,24 +8,24 @@
       <div id="header">
         <table style="width: 100%" border="0">
           <tr>
-            <td><img src="images/logo-fullsize-white.png"></td>
+            <td>
+              <button id="restore-buttons" onClick='restoreButtons();' style="border: none; background-color: transparent;"><img src="images/logo-fullsize-white.png"></button>
+            </td>
           <td>
           <h2>INVOICE</h2>
-          <p><strong>Number: </strong><input type="text" style="width: 200px;"></p>
+          <p><strong>Number: </strong><input type="text" style="width: 200px;" id="invoice-number"></p>
           <p><strong>Date: </strong> <input type="date" id="invoice-date">
           </p>
           <p><strong>Prepared for: <select id="vendor-list"></select></strong>
           <br/>
-          <button id="add-product" onClick='addProduct();'>Add Product</button>
+          <button id="add-product" onClick='addNewProduct();'>Add Product</button>
           <button id="print" onClick='printInvoice();'>Print Invoice</button>
           </td>
         </tr>
       </table>
       </div>
 
-      <div id="products">
-
-      </div>
+      <div id="products"></div>
       <div id="footer">
         <p align="right" style="padding-right: 8px;">Amount Due ($):<br/>
         <textarea id="grand-total" style="width: 90px; font-size: 1.5em; text-align: right;"></textarea></p><br/>
@@ -33,7 +33,7 @@
         <p align ="right">Received date: ____________________________</p>
       </div>
     </div>
-    <textarea id="product-counter" name="1" style="display: none;"></textarea>
+    <textarea id="product-counter" name="0" style="display: none;"></textarea>
   </body>  
 
 </html>
