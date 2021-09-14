@@ -100,6 +100,7 @@ const productList = [
       "wholesale": "$5.50"
     }
   ]
+  
 const vendorList = [
   "King's Produce (Sante)", 
   "King's Produce (Forum)",
