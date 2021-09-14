@@ -16,7 +16,7 @@ const productList = [
       "nutrition-info": "url/photo",
       "available": "no",
       "locations": ["Noggins Sante Centre"],
-      "wholesale": "$7.55"
+      "wholesale": "$6.50"
     },
     {
       "name": "Italian Herb and Old Cheddar",
@@ -80,6 +80,24 @@ const productList = [
       "available": "soon",
       "locations": ["Noggins Sante Centre"],
       "wholesale": "$7.55"
+    },
+    {
+      "name": "Molassess Bread",
+      "description": "Playful cinnamon accents make this braided loaf a delightful treat to enjoy over the holiday season. Prepare your favourite french toast batter recipe for a unique and impressive breakfast offering!",
+      "photo": "",
+      "nutrition-info": "url/photo",
+      "available": "yes",
+      "locations": ["Noggins Sante Centre"],
+      "wholesale": "$6.50"
+    },
+    {
+      "name": "Cinnamon Raisin Bread",
+      "description": "Playful cinnamon accents make this braided loaf a delightful treat to enjoy over the holiday season. Prepare your favourite french toast batter recipe for a unique and impressive breakfast offering!",
+      "photo": "",
+      "nutrition-info": "url/photo",
+      "available": "yes",
+      "locations": ["Noggins Sante Centre"],
+      "wholesale": "$5.50"
     }
   ]
 const vendorList = [
