@@ -71,6 +71,24 @@
   "products":{
     "products": [
       {
+        "name": "Cinnamon Raisin Bread",
+        "description": "Subtle hints of cinnamon wrapped around delicious organic raisins like a warm hug on a brisk evening. Seasonal offering.",
+        "photo": "cinnamon-raisin.png",
+        "nutrition-info": "url/photo",
+        "available": "yes",
+        "locations": ["Noggins Sante Centre"],
+        "wholesale": "$5.50"
+      },
+      {
+        "name": "Molasses Bread",
+        "description": "Soft with a touch of sweetness, this maritime favourite can be enjoyed with butter and a warm cup of tea. Seasonal offering.",
+        "photo": "molasses-bread.png",
+        "nutrition-info": "url/photo",
+        "available": "yes",
+        "locations": ["Noggins Sante Centre"],
+        "wholesale": "$6.50"
+      },
+      {
         "name": "Garlic Knots",
         "description": "A classic Italian snack or side, our heart-healthy garlic knots are made with the perfect blend of garlic powder, oregano and parmesan cheese with just a pinch of salt.",
         "photo": "garlic-knots.png",
@@ -78,15 +96,6 @@
         "available": "yes",
         "locations": ["Noggins Sante Centre"],
         "wholesale": "$3.50"
-      },
-      {
-        "name": "Homemade Pizza Kits",
-        "description": "Make your own 12 inch Pilgrim's Finest Pizza! Enjoy all the deliciousness of a homemade pizza with a fraction of the effort. Our signature dough is ready to spread on the pan or stone, just add your favourite sauce and toppings!",
-        "photo": "pizza-kits.png",
-        "nutrition-info": "url/photo",
-        "available": "yes",
-        "locations": ["Noggins Sante Centre"],
-        "wholesale": "$7.55"
       },
       {
         "name": "Honey Whole Wheat",
@@ -104,7 +113,7 @@
         "nutrition-info": "url/photo",
         "available": "no",
         "locations": ["Noggins Sante Centre"],
-        "wholesale": "$7.55"
+        "wholesale": "$6.50"
       },
       {
         "name": "Italian Herb and Old Cheddar Focaccia",
